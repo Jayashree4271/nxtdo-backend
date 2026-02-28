@@ -81,7 +81,7 @@ def create_task(task: TaskCreate):
 @app.get("/about",response_class=PlainTextResponse)
 
 def about_backend():
-    return "This is all about backend "
+    return "This is all about the backend"
 
 @app.get("/tasks")
 def list_tasks(limit: int = 100):
